@@ -11,10 +11,10 @@
     <form class="mt-4" method="POST" action="">
     @csrf
 
-        <input type="email" class="border border-gray-100 rounded-md bg-gray-100 w-full text-lg placeholder-gray-900 p-2 my-2 focus:bg-white"
+        <input type="email" class="border border-gray-300 rounded-md bg-red-400 w-full text-lg placeholder-slate-900 p-2 my-2 focus:bg-red"
         placeholder="Email con cambios" id="email" name="email">
 
-        <input type="password" class="border border-gray-100 rounded-md bg-gray-100 w-full text-lg placeholder-gray-900 p-2 my-2 focus:bg-white"
+        <input type="password" class="border border-gray-300 rounded-md bg-red-400 w-full text-lg placeholder-slate-900 p-2 my-2 focus:bg-red"
         placeholder="Password con cambios" id="password" name="password">
 
         @error('message')
