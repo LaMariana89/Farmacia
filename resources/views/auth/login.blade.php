@@ -12,10 +12,10 @@
     @csrf
 
         <input type="email" class="border border-gray-100 rounded-md bg-gray-100 w-full text-lg placeholder-gray-900 p-2 my-2 focus:bg-white"
-        placeholder="Email" id="email" name="email">
+        placeholder="Email con cambios" id="email" name="email">
 
         <input type="password" class="border border-gray-100 rounded-md bg-gray-100 w-full text-lg placeholder-gray-900 p-2 my-2 focus:bg-white"
-        placeholder="Password" id="password" name="password">
+        placeholder="Password con cambios" id="password" name="password">
 
         @error('message')
             <p class="border border-red-500 rounded-md bg-red-100 w-full text-red-600 p-2 my-2">* Error</p>
